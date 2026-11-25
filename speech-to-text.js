@@ -1,12 +1,12 @@
 const textInput = document.getElementById('text-input');
     const speakBtn = document.getElementById('speak-btn');
     const stopBtn = document.getElementById('stop-btn');
-    let word = "iron"
+    let word="hi"
 
     speakBtn.addEventListener('click', () => {
       // Cancel any ongoing speech before starting
     window.speechSynthesis.cancel();
-
+                                        // will bw word
     const utterance = new SpeechSynthesisUtterance(word);
       
       // Optional customizations
